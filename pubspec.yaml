@@ -31,6 +31,7 @@ dependencies:
   flutter:
     sdk: flutter
   http: 1.2.0
+ 
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -41,10 +42,15 @@ dependencies:
   firebase_auth: ^4.15.3
   provider : 
   firebase_storage: ^11.6.0
+  file_picker :
+  path_provider :
+ 
+  
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
@@ -52,6 +58,8 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^2.0.0
+  flutter_launcher_icons : ^0.13.1
+
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -65,9 +73,53 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
+  assets:
+    # - lib/assets/ss.png
+    - lib/assets/st.png
+    - lib/assets/institution.png
+    - lib/assets/location.jpg
+    - lib/assets/cat.png
+    - lib/assets/locationicons.png
+    - lib/assets/bank.png
+    - lib/assets/exit.png
+    - lib/assets/information-button.png
+    - lib/assets/exit.png
+    - lib/assets/book.png
+    - lib/assets/counter.png
+    - lib/assets/register.png
+    - lib/assets/play-button.png
+    - lib/assets/job-position.png
+    - lib/assets/studyspotdiscover.png
+    - lib/assets/search.png
+    - lib/assets/courses.png
+    - lib/assets/pl.png
+    - lib/assets/pdfimg.png
+    - lib/assets/reg1.png
+    - lib/assets/enq1.png
+    - lib/assets/vid1.png
+    - lib/assets/place1.png
+    - lib/assets/courses1.png
+    - lib/assets/about1.png
+    - lib/assets/hai.png
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+    # - lib/assets/about.png
+    # - lib/assets/courses.jpg
+    # - lib/assets/placement.jpg
+    
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
@@ -94,3 +146,8 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "lib/assets/hai.png"
+  adaptive_icon_background: "#FFFFFF"
